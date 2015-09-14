@@ -10,11 +10,11 @@ import javax.persistence.Id;
 
 
 @Entity
-public class StatusCheckView2 {
+public class StatusCheckView2VO {
 	
-	 protected StatusCheckView2() {}
+	 protected StatusCheckView2VO() {}
 	 
-	 public StatusCheckView2(String serialPin, String maximoLCStatus,String maximoFinStatus,Date TermDt) {
+	 public StatusCheckView2VO(String serialPin, String maximoLCStatus,String maximoFinStatus,Date TermDt) {
 	        this.serialPin = serialPin;
 	        this.maximoLCStatus = maximoLCStatus;
 	        this.maximoFinStatus = maximoFinStatus;
